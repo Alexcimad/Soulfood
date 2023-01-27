@@ -5,13 +5,15 @@
 }
 
 .card-key-self-development{
-    background-color: red;
+    background-color: white;
     padding: 10px 10px;
-    border: 1px solid #000000;
-    border-radius: 4px;
+    border-radius: 0.5em;
     text-align: center;
+    margin : 10px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .img-card-key-self-development {
     border-radius: 0.5em;
+    margin-bottom: 5px;
 }
