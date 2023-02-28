@@ -19,3 +19,29 @@
     border-radius: 0.5em;
     margin-bottom: 5px;
 }
+
+// Design of content cards that Soulfood will offer 
+.cards-content-type{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-content-type{
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(180deg, lightgrey, whitesmoke);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: darkslategrey;//#A6ACE8;
+    justify-content: center;
+    align-items: center;
+    //text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    margin: 10px;
+    font-weight: bold;
+}
