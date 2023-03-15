@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_15_220200) do
+ActiveRecord::Schema.define(version: 2023_03_15_222814) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2023_03_15_220200) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "spiritual_food_id", null: false
+    t.string "url_link"
     t.index ["spiritual_food_id"], name: "index_articles_on_spiritual_food_id"
   end
 
@@ -32,6 +33,7 @@ ActiveRecord::Schema.define(version: 2023_03_15_220200) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "spiritual_food_id", null: false
+    t.string "url_link"
     t.index ["spiritual_food_id"], name: "index_physical_activities_on_spiritual_food_id"
   end
 
@@ -42,6 +44,7 @@ ActiveRecord::Schema.define(version: 2023_03_15_220200) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "spiritual_food_id", null: false
+    t.string "url_link"
     t.index ["spiritual_food_id"], name: "index_podcasts_on_spiritual_food_id"
   end
 
@@ -52,6 +55,7 @@ ActiveRecord::Schema.define(version: 2023_03_15_220200) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "spiritual_food_id", null: false
+    t.string "url_link"
     t.index ["spiritual_food_id"], name: "index_readings_on_spiritual_food_id"
   end
 
