@@ -1,0 +1,2 @@
+class Soulfoody < ApplicationRecord
+end
